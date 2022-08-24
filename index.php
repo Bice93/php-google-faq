@@ -84,7 +84,10 @@
 
     <header>
         <section class="container_logo">
-            <div class="box_logo">LOGO E PRIVACY</div>
+            <div class="box_logo">
+                <a href="#"><img src="./img/google_logo.png" alt="img_google_logo"></a>
+                <a href="#">Privacy e Termini</a>
+            </div>
             <div class="icon_header">ICONE</div>
         </section>
         <section>
