@@ -8,13 +8,55 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* **********HEADER************* */
+header{
+    border-bottom: 1px solid black;
+    padding: 10px 7px;
+}
+
+.container_logo{
+    display: flex;
+}
+
+.box_logo{
+    width: 80%;
+}
+
+.icon_header{
+    width: 20%;
+    text-align: end;
+}
+.list_header{
+    list-style: none;
+    margin-left: 0;
+ }
+
+ .list_header li{
+    display: inline-block;
+ }
+
+ .list_header a{
+    color: gray;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.list_header a:active, .list_header li:active{
+    border-bottom: 2px solid #3367d6;
+    color: #3367d6;
+}
+
+/* ***************MAIN****************** */
+
 .container{
     width: 1000px;
     margin: 0 auto;
 }
 
-div{
-    margin: 5rem 0;
+.box_question{
+    margin-bottom: 5rem;
 }
 
 h2, h3{
@@ -33,5 +75,7 @@ ul{
 
 a {
     text-decoration: none;
-    color: #3367d6;;
+    color: #3367d6;
 }
+
+
