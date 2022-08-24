@@ -58,6 +58,32 @@ header{
     color: #3367d6;
 }
 
+.box_icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.box_icon > i, .profile{
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+}
+
+.box_icon >i {
+    color: rgb(125, 131, 144);
+}
+
+.profile{
+    background-color: rgb(125, 131, 144);
+    color: white;
+}
+
+.icon_app:hover{
+    background-color: lightgray;
+}
+
 /* ***************MAIN****************** */
 
 .container{

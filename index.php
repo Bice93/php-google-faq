@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Google FAQ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -88,7 +89,12 @@
                 <a href="#"><img src="./img/google_logo.png" alt="img_google_logo"></a>
                 <a href="#">Privacy e Termini</a>
             </div>
-            <div class="icon_header">ICONE</div>
+            <div class="icon_header">
+                <a href="#" class="box_icon icon_app">
+                    <i class="fa-solid fa-grip-vertical"></i>
+                </a>
+                <a href="#" class="box_icon profile">B</a>
+            </div>
         </section>
         <section>
             <ul class="list_header">
